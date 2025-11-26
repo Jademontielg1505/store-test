@@ -1,14 +1,14 @@
 /* Reset y Variables CSS */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;n
     box-sizing: border-box;
 }
 
 :root {
-    --primary-color: #e91e63;
+    --primary-color: #0918ec;
     --secondary-color: #f8f9fa;
-    --accent-color: #ff4081;
+    --accent-color: #c20707;
     --text-dark: #333;
     --text-light: #666;
     --border-color: #e0e0e0;
