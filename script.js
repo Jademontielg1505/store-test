@@ -3,9 +3,9 @@ const products = [
     {
         id: 1,
         title: "Camiseta Básica Hombre",
-        price: 29.99,
+        price: 8.20,
         category: "hombre",
-        image: "👕",
+        image: "img/camiseta basica 1.jpg",
         description: "Camiseta de algodón 100% cómoda y duradera",
         sizes: ["S", "M", "L", "XL"],
         colors: ["Blanco", "Negro", "Azul", "Gris"]
@@ -13,9 +13,9 @@ const products = [
     {
         id: 2,
         title: "Vestido Casual Mujer",
-        price: 59.99,
+        price: 17.00,
         category: "mujer",
-        image: "👗",
+        image: "img/vestido casual mujer.jpg",
         description: "Vestido elegante perfecto para el día a día",
         sizes: ["S", "M", "L"],
         colors: ["Rojo", "Negro", "Azul", "Rosa"]
@@ -23,9 +23,9 @@ const products = [
     {
         id: 3,
         title: "Pantalón Vaquero",
-        price: 79.99,
+        price: 15.00,
         category: "hombre",
-        image: "👖",
+        image: "img/pantalon vaquero.jpg",
         description: "Pantalón vaquero clásico con corte moderno",
         sizes: ["28", "30", "32", "34", "36"],
         colors: ["Azul", "Negro"]
@@ -33,9 +33,9 @@ const products = [
     {
         id: 4,
         title: "Chaqueta Deportiva",
-        price: 89.99,
+        price: 25.97,
         category: "hombre",
-        image: "🧥",
+        image: "img/chaqueta deportiva.jpg",
         description: "Chaqueta deportiva ideal para actividades al aire libre",
         sizes: ["S", "M", "L", "XL"],
         colors: ["Negro", "Azul", "Verde"]
@@ -43,9 +43,9 @@ const products = [
     {
         id: 5,
         title: "Blusa Elegante",
-        price: 49.99,
+        price: 11.00,
         category: "mujer",
-        image: "👚",
+        image: "img/blusa elegante.jpg",
         description: "Blusa elegante para ocasiones especiales",
         sizes: ["S", "M", "L"],
         colors: ["Blanco", "Negro", "Rosa", "Azul"]
@@ -53,9 +53,9 @@ const products = [
     {
         id: 6,
         title: "Falda Midi",
-        price: 39.99,
+        price: 13.00,
         category: "mujer",
-        image: "👗",
+        image: "img/falda midi.jpg",
         description: "Falda midi versátil para cualquier ocasión",
         sizes: ["S", "M", "L"],
         colors: ["Negro", "Azul", "Verde", "Rosa"]
@@ -63,9 +63,9 @@ const products = [
     {
         id: 7,
         title: "Camiseta Infantil",
-        price: 19.99,
+        price: 6.99,
         category: "niños",
-        image: "👕",
+        image: "img/camiseta infantil.jpg",
         description: "Camiseta cómoda para niños con diseño divertido",
         sizes: ["4", "6", "8", "10", "12"],
         colors: ["Rojo", "Azul", "Amarillo", "Verde"]
@@ -73,9 +73,9 @@ const products = [
     {
         id: 8,
         title: "Pantalón Infantil",
-        price: 24.99,
+        price: 12.60,
         category: "niños",
-        image: "👖",
+        image: "img/pantalon infantil.jpg",
         description: "Pantalón resistente para el juego diario",
         sizes: ["4", "6", "8", "10", "12"],
         colors: ["Azul", "Negro", "Verde"]
@@ -83,27 +83,27 @@ const products = [
     {
         id: 9,
         title: "Reloj Elegante",
-        price: 129.99,
+        price: 109.27,
         category: "accesorios",
-        image: "⌚",
+        image: "img/reloj elegante.jpg",
         description: "Reloj elegante con correa de cuero genuino",
         colors: ["Negro", "Marrón", "Azul"]
     },
     {
         id: 10,
         title: "Bolso de Mano",
-        price: 69.99,
+        price: 24.99,
         category: "accesorios",
-        image: "👜",
+        image: "img/bolsa de mano.jpg",
         description: "Bolso de mano elegante para el día a día",
         colors: ["Negro", "Marrón", "Rojo"]
     },
     {
         id: 11,
         title: "Zapatos Deportivos",
-        price: 99.99,
+        price: 65.50,
         category: "hombre",
-        image: "👟",
+        image: "img/zapatos deportivos.jpg",
         description: "Zapatos deportivos cómodos para el ejercicio",
         sizes: ["38", "39", "40", "41", "42", "43", "44"],
         colors: ["Blanco", "Negro", "Azul"]
@@ -111,9 +111,9 @@ const products = [
     {
         id: 12,
         title: "Tacones Elegantes",
-        price: 79.99,
+        price: 49.99,
         category: "mujer",
-        image: "👠",
+        image: "img/tacones elegantes.jpg",
         description: "Tacones elegantes para ocasiones especiales",
         sizes: ["36", "37", "38", "39", "40"],
         colors: ["Negro", "Rojo", "Nude"]
