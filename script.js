@@ -5,7 +5,7 @@ const products = [
         title: "Camiseta Básica Hombre",
         price: 8.20,
         category: "hombre",
-        image: "images/camiseta1.jpg",
+        image: "img/collection/shirts/camiseta1.jpg",
         description: "Camiseta de algodón 100% cómoda y duradera",
         sizes: ["S", "M", "L", "XL"],
         colors: ["Blanco", "Negro", "Azul", "Gris"]
@@ -15,7 +15,7 @@ const products = [
         title: "Vestido Casual Mujer",
         price: 17.00,
         category: "mujer",
-        image: "images/vestido.jpg",
+        image: "img/collection/dress/vestido.jpg",
         description: "Vestido elegante perfecto para el día a día",
         sizes: ["S", "M", "L"],
         colors: ["Rojo", "Negro", "Azul", "Rosa"]
@@ -25,7 +25,7 @@ const products = [
         title: "Pantalón Vaquero",
         price: 15.00,
         category: "hombre",
-        image: "images/pantalonvaquero.jpg",
+        image: "img/collection/pants/pantalonvaquero.jpg",
         description: "Pantalón vaquero clásico con corte moderno",
         sizes: ["28", "30", "32", "34", "36"],
         colors: ["Azul", "Negro"]
@@ -35,7 +35,7 @@ const products = [
         title: "Chaqueta Deportiva",
         price: 25.97,
         category: "hombre",
-        image: "images/chaqueta.jpg",
+        image: "img/collection/jackets/chaqueta.jpg",
         description: "Chaqueta deportiva ideal para actividades al aire libre",
         sizes: ["S", "M", "L", "XL"],
         colors: ["Negro", "Azul", "Verde"]
@@ -45,7 +45,7 @@ const products = [
         title: "Blusa Elegante",
         price: 11.00,
         category: "mujer",
-        image: "images/blusa.jpg",
+        image: "img/collection/blouse/blusa.jpg",
         description: "Blusa elegante para ocasiones especiales",
         sizes: ["S", "M", "L"],
         colors: ["Blanco", "Negro", "Rosa", "Azul"]
@@ -55,7 +55,7 @@ const products = [
         title: "Falda Midi",
         price: 13.00,
         category: "mujer",
-        image: "images/falda.jpg",
+        image: "img/collection/skirts/falda.jpg",
         description: "Falda midi versátil para cualquier ocasión",
         sizes: ["S", "M", "L"],
         colors: ["Negro", "Azul", "Verde", "Rosa"]
@@ -65,7 +65,7 @@ const products = [
         title: "Camiseta Infantil",
         price: 6.99,
         category: "niños",
-        image: "images/camiseta2.jpg",
+        image: "img/collection/shirts/camiseta2.jpg",
         description: "Camiseta cómoda para niños con diseño divertido",
         sizes: ["4", "6", "8", "10", "12"],
         colors: ["Rojo", "Azul", "Amarillo", "Verde"]
@@ -75,7 +75,7 @@ const products = [
         title: "Pantalón Infantil",
         price: 12.60,
         category: "niños",
-        image: "images/pantalon1.jpg",
+        image: "img/collection/pants/pantalon1.jpg",
         description: "Pantalón resistente para el juego diario",
         sizes: ["4", "6", "8", "10", "12"],
         colors: ["Azul", "Negro", "Verde"]
@@ -85,7 +85,7 @@ const products = [
         title: "Reloj Elegante",
         price: 109.27,
         category: "accesorios",
-        image: "images/reloj.jpg",
+        image: "img/collection/accessories/reloj.jpg",
         description: "Reloj elegante con correa de cuero genuino",
         colors: ["Negro", "Marrón", "Azul"]
     },
@@ -94,7 +94,7 @@ const products = [
         title: "Bolso de Mano",
         price: 24.99,
         category: "accesorios",
-        image: "images/bolsa.jpg",
+        image: "img/collection/bags/bolsa.jpg",
         description: "Bolso de mano elegante para el día a día",
         colors: ["Negro", "Marrón", "Rojo"]
     },
@@ -103,7 +103,7 @@ const products = [
         title: "Zapatos Deportivos",
         price: 65.50,
         category: "hombre",
-        image: "img/tenis.jpg",
+        image: "img/collection/shoes/tenis.jpg",
         description: "Zapatos deportivos cómodos para el ejercicio",
         sizes: ["38", "39", "40", "41", "42", "43", "44"],
         colors: ["Blanco", "Negro", "Azul"]
@@ -113,7 +113,7 @@ const products = [
         title: "Tacones Elegantes",
         price: 49.99,
         category: "mujer",
-        image: "images/tacones.jpg",
+        image: "img/collection/shoes/tacones.jpg",
         description: "Tacones elegantes para ocasiones especiales",
         sizes: ["36", "37", "38", "39", "40"],
         colors: ["Negro", "Rojo", "Nude"]
