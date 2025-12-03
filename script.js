@@ -85,7 +85,7 @@ const products = [
         title: "Reloj Elegante",
         price: 109.27,
         category: "accesorios",
-        image: "img/collection/accessories/reloj.jpg",
+        image: "img/collection/accesories/reloj.jpg",
         description: "Reloj elegante con correa de cuero genuino",
         colors: ["Negro", "Marrón", "Azul"]
     },
@@ -94,7 +94,7 @@ const products = [
         title: "Bolso de Mano",
         price: 24.99,
         category: "accesorios",
-        image: "img/collection/bags/bolsa.jpg",
+        image: "img/collection/bags/bolso.jpg",
         description: "Bolso de mano elegante para el día a día",
         colors: ["Negro", "Marrón", "Rojo"]
     },
@@ -206,7 +206,7 @@ function renderProducts() {
     productsGrid.innerHTML = filteredProducts.map(product => `
         <div class="product-card" data-id="${product.id}">
             <div class="product-image">
-                ${product.image}
+                <img class="center" style="width: 50%; height: auto;" src="${product.image}" alt="${product.title}">
             </div>
             <div class="product-info">
                 <h3 class="product-title">${product.title}</h3>
@@ -318,7 +318,7 @@ function renderCartItems() {
     cartItems.innerHTML = cart.map(item => `
         <div class="cart-item">
             <div class="cart-item-image">
-                ${item.image}
+                <img src="${item.image}" alt="${item.title}">
             </div>
             <div class="cart-item-info">
                 <div class="cart-item-title">${item.title}</div>
@@ -372,7 +372,7 @@ function viewProduct(productId) {
     modalBody.innerHTML = `
         <div class="product-detail">
             <div class="product-detail-image">
-                <div class="product-image-large">${product.image}</div>
+                <div class="product-image-large"><img class="center" style="width: 50%; height: auto;" src="${product.image}" alt="${product.title}"></div>
             </div>
             <div class="product-detail-info">
                 <h2>${product.title}</h2>
